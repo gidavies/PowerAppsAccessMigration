@@ -1,7 +1,7 @@
 # Power Apps Access Migration
 Resources for the PowerApps Access Migration Labs
 
-# Deployment Azure SQL Database for migrating the Access data into.
+# Deploy Azure SQL Database.
 
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgidavies%2FPowerAppsAccessMigration%2Fmaster%2FARM%2Fazuredeploysql.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>

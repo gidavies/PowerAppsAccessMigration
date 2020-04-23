@@ -4,14 +4,14 @@
   "parameters": {
     "SQLServerName": {
       "type": "string",
-      "defaultValue": "SQLServer",
+      "defaultValue": "sqlserver",
       "metadata": {
         "description": "The SQL Server name"
       }
     },
     "SQLDatabaseName": {
       "type": "string",
-      "defaultValue": "SQLDB",
+      "defaultValue": "sqldb",
       "metadata": {
         "description": "The database name"
       }
