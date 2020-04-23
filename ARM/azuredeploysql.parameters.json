@@ -9,7 +9,7 @@
         "value": "NorthwindDB"
       },
       "SQLAdministratorLogin": {
-        "value": "nwadmin"
+        "value": "sysadmin"
       },
       "SQLAdministratorLoginPassword": {
         "value": "Password$123"
