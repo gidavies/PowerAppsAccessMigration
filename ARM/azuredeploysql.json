@@ -4,7 +4,6 @@
   "parameters": {
     "SQLServerName": {
       "type": "string",
-      "defaultValue":  "NorthwindDBServer",
       "metadata": {
         "description": "The SQL Server name"
       }
