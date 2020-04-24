@@ -1,5 +1,8 @@
 # Power Apps Access Migration
-Resources for the PowerApps Access Migration Labs
+Resources for the PowerApps Access Migration Labs. Overview:
+
+* ARM: Contains Azure Resource Manager Templates to create services using Infrastructure as Code, such as the Azure SQL DB template.
+* Access: Contains Microsoft Access realated resources such as the Northwind Access Template.
 
 # Deploy Azure SQL Database.
 
