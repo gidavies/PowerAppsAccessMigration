@@ -51,7 +51,6 @@
             ],
             "properties": {
                 "siteConfig": {
-                    "alwaysOn": true,
                     "cors": {
                         "allowedOrigins": [
                             "*"
