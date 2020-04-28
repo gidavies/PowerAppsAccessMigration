@@ -6,8 +6,16 @@ Resources for the PowerApps Access Migration Labs. Overview:
 
 # Deploy Azure SQL Database.
 
+Click here to deploy a new Azure SQL database to be used as the target database for the migration:
+
 <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgidavies%2FPowerAppsAccessMigration%2Fmaster%2FARM%2Fazuredeploysql.json" target="_blank">
     <img src="http://azuredeploy.net/deploybutton.png"/>
 </a>
 
-This allows you to deploy the workshop environment.  When complete, you should have a Web Server and SQL server fully configured in their own vNet and Resource group.
+# Deploy Azure Function.
+
+Click here to deploy an example Azure Function to be used by a custom connector in the lab Power App:
+
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fgidavies%2FPowerAppsAccessMigration%2Fmaster%2FARM%2Fazuredeployfunction.json" target="_blank">
+    <img src="http://azuredeploy.net/deploybutton.png"/>
+</a>
