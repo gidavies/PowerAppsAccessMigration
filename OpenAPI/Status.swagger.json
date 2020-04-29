@@ -1,0 +1,66 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "Status",
+      "description": "Gets the status of a company",
+      "version": "1.0"
+    },
+    "host": "<YOURFUNCTIONAPP>.azurewebsites.net",
+    "basePath": "/api/",
+    "schemes": [
+      "https"
+    ],
+    "consumes": [],
+    "produces": [],
+    "paths": {
+      "/GetStatus": {
+        "post": {
+          "responses": {
+            "default": {
+              "description": "default",
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "status": {
+                    "type": "string",
+                    "description": "status"
+                  }
+                }
+              }
+            }
+          },
+          "summary": "Gets the status for a company",
+          "description": "An Azure Function that returns the credit rating for a specific company",
+          "operationId": "GetStatus",
+          "parameters": [
+            {
+              "name": "body",
+              "in": "body",
+              "required": false,
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string",
+                    "description": "name"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "definitions": {},
+    "parameters": {},
+    "responses": {},
+    "securityDefinitions": {
+      "api_key": {
+        "type": "apiKey",
+        "in": "query",
+        "name": "code"
+      }
+    },
+    "security": [],
+    "tags": []
+  }
